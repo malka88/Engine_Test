@@ -27,27 +27,25 @@ namespace Engine_Test
             this.C = C;
         }
 
-        public double GetEngineAcceleration(double M, double I)
+        public double GetEngineAcceleration(double M)
         {
             double acceleration = M / I;
 
             return acceleration;
         }
 
-        public override double GetHeatingVelocity(double M, double Hm, double V, double Hv)
+        public override double GetHeatingVelocity(double M, double V)
         {
             double Vn = M * Hm * Math.Pow(V, 2) * Hv;
 
             return Vn;
         }
 
-        public override double GetCoolingVelocity(double C, double T_environment, double T_engine)
+        public override double GetCoolingVelocity(double T_environment, double T_engine)
         {
             double Vc = C * (T_environment - T_engine);
 
             return Vc;
         }
-
-        
     }
 }

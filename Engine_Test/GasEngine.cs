@@ -14,13 +14,13 @@ namespace Engine_Test
             //TODO: Инициализация полей класса
         }
 
-        public override double GetCoolingVelocity(double C, double T_environment, double T_engine)
+        public override double GetCoolingVelocity(double M, double V)
         {
             //TODO: Расчет скорости охлаждения
             throw new NotImplementedException();
         }
 
-        public override double GetHeatingVelocity(double M, double Hm, double V, double Hv)
+        public override double GetHeatingVelocity(double T_environment, double T_engine)
         {
             //TODO: Расчет скорости охлаждения
             throw new NotImplementedException();

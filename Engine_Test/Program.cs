@@ -9,6 +9,9 @@ namespace Engine_Test
         {
             int timer = 1;
 
+            double T_environment = 0;
+            double T_engine = 0;
+
             double Velocity = 0;
             double[] V = { 0, 75, 150, 200, 250, 300 };
             double[] M = { 20, 75, 100, 105, 75, 0 };
@@ -19,8 +22,17 @@ namespace Engine_Test
 
             Console.Write("Введите температуру окружающей среды (в градусах Цельсия): ");
 
-            double T_environment = double.Parse(Console.ReadLine());
-            double T_engine = T_environment;
+            try
+            {
+                T_environment = double.Parse(Console.ReadLine());
+                T_engine = T_environment;
+            }
+
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex);
+            }
 
             for (int i = 0; i < V.Length - 1; i++)
             {
@@ -28,12 +40,12 @@ namespace Engine_Test
                 {
                     Moment = LinearFunctionCalculation.LinearFunction(V[i], M[i], V[i + 1], M[i + 1], j);
 
-                    double a = Moment / engineIC.I;
+                    double a = engineIC.GetEngineAcceleration(Moment);
 
                     Velocity = a + Velocity;
 
-                    double Vh = Moment * engineIC.Hm + Math.Pow(Velocity, 2) * engineIC.Hv;
-                    double Vc = engineIC.C * (T_environment - T_engine);
+                    double Vh = engineIC.GetHeatingVelocity(Moment, Velocity);
+                    double Vc = engineIC.GetCoolingVelocity(T_environment, T_engine);
 
                     T_engine = T_engine + Vh + Vc;
 

@@ -14,7 +14,7 @@
             return _title;
         }
 
-        public abstract double GetHeatingVelocity(double M, double Hm, double V, double Hv);
-        public abstract double GetCoolingVelocity(double C, double T_environment, double T_engine);
+        public abstract double GetHeatingVelocity(double M, double V);
+        public abstract double GetCoolingVelocity(double T_environment, double T_engine);
     }
 }

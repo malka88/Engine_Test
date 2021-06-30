@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\Engine_Test\\Engine_Test\\Engine_Test.csproj": {}
+    "C:\\Users\\malka\\source\\repos\\Engine_Test\\Engine_Test\\Engine_Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\Engine_Test\\Engine_Test\\Engine_Test.csproj": {
+    "C:\\Users\\malka\\source\\repos\\Engine_Test\\Engine_Test\\Engine_Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Engine_Test\\Engine_Test\\Engine_Test.csproj",
+        "projectUniqueName": "C:\\Users\\malka\\source\\repos\\Engine_Test\\Engine_Test\\Engine_Test.csproj",
         "projectName": "Engine_Test",
-        "projectPath": "C:\\Users\\user\\source\\repos\\Engine_Test\\Engine_Test\\Engine_Test.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\Engine_Test\\Engine_Test\\obj\\",
+        "projectPath": "C:\\Users\\malka\\source\\repos\\Engine_Test\\Engine_Test\\Engine_Test.csproj",
+        "packagesPath": "C:\\Users\\malka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malka\\source\\repos\\Engine_Test\\Engine_Test\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\malka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
