@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\Engine_Test\Engine_Test\obj\Debug\net5.0\Engine_Test.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Engine_Test\Engine_Test\obj\Debug\net5.0\Engine_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Engine_Test\Engine_Test\obj\Debug\net5.0\Engine_Test.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Engine_Test\Engine_Test\obj\Debug\net5.0\Engine_Test.AssemblyInfo.cs
+C:\Users\user\source\repos\Engine_Test\Engine_Test\obj\Debug\net5.0\Engine_Test.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Engine_Test\Engine_Test\bin\Debug\net5.0\Engine_Test.exe
+C:\Users\user\source\repos\Engine_Test\Engine_Test\bin\Debug\net5.0\Engine_Test.deps.json
+C:\Users\user\source\repos\Engine_Test\Engine_Test\bin\Debug\net5.0\Engine_Test.runtimeconfig.json
+C:\Users\user\source\repos\Engine_Test\Engine_Test\bin\Debug\net5.0\Engine_Test.runtimeconfig.dev.json
+C:\Users\user\source\repos\Engine_Test\Engine_Test\bin\Debug\net5.0\Engine_Test.dll
+C:\Users\user\source\repos\Engine_Test\Engine_Test\bin\Debug\net5.0\ref\Engine_Test.dll
+C:\Users\user\source\repos\Engine_Test\Engine_Test\bin\Debug\net5.0\Engine_Test.pdb
+C:\Users\user\source\repos\Engine_Test\Engine_Test\obj\Debug\net5.0\Engine_Test.dll
+C:\Users\user\source\repos\Engine_Test\Engine_Test\obj\Debug\net5.0\ref\Engine_Test.dll
+C:\Users\user\source\repos\Engine_Test\Engine_Test\obj\Debug\net5.0\Engine_Test.pdb
+C:\Users\user\source\repos\Engine_Test\Engine_Test\obj\Debug\net5.0\Engine_Test.genruntimeconfig.cache
